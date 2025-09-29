@@ -7,7 +7,9 @@ import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 from sklearn import preprocessing
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+le = LabelEncoder()
+from sklearn.feature_selection import SelectKBest, chi2
 
 # ==============================
 # 1. Load Dataset
@@ -58,6 +60,11 @@ df_no_outlier[numerical_cols].boxplot()
 plt.title("Boxplot Sesudah Handling Outlier")
 plt.show()
 
+df_encoded = df_no_outlier.copy()
+
+df_encoded['Sex'] = le.fit_transform(df_encoded['Sex'])
+df_encoded['Embarked'] = le.fit_transform(df_encoded['Embarked'])
+
 # ==============================
 # 6. Data Transformation
 # ==============================
@@ -89,8 +96,32 @@ print(df_zscore.head())
 # ==============================
 # 7. Simpan hasil
 # ==============================
+df_encoded.to_csv("train_encoded.csv", index=False)
 df_no_outlier.to_csv("train_cleaned.csv", index=False)
 df_minmax.to_csv("train_minmax.csv", index=False)
 df_zscore.to_csv("train_zscore.csv", index=False)
 
-print("\n=== Semua proses selesai. File hasil tersimpan ===")
+# ========================================================
+# 8. SELEKSI FITUR DENGAN CHI-SQUARE
+# ========================================================
+print("\n=== 8. Menjalankan Seleksi Fitur Chi-Square ===")
+
+# Pisahkan fitur (X) dan target (y) dari df_encoded
+features_for_selection = ['Pclass', 'Sex', 'SibSp', 'Parch', 'Embarked']
+X = df_encoded[features_for_selection]
+y = df_encoded['Survived']
+
+# Inisialisasi dan jalankan SelectKBest untuk memilih 4 fitur terbaik
+chi2_selector = SelectKBest(score_func=chi2, k=4)
+X_kbest = chi2_selector.fit_transform(X, y)
+
+# Tampilkan hasilnya
+selected_features = X.columns[chi2_selector.get_support()]
+feature_scores = pd.DataFrame({'Fitur': X.columns, 'Skor Chi-Square': chi2_selector.scores_})
+feature_scores = feature_scores.sort_values(by='Skor Chi-Square', ascending=False)
+
+print("\nHasil Skor Fitur:")
+print(feature_scores)
+print(f"\nFitur terpilih berdasarkan skor tertinggi adalah: {selected_features.tolist()}")
+
+
