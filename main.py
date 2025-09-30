@@ -8,8 +8,8 @@ from scipy import stats
 import matplotlib.pyplot as plt
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.feature_selection import SelectKBest, chi2
-from imblearn.over_sampling import SMOTE  # Ditambahkan untuk SMOTE
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis # Ditambahkan untuk LDA
+from imblearn.over_sampling import SMOTE
 
 le = LabelEncoder()
 
@@ -99,34 +99,47 @@ df_zscore.to_csv("train_zscore.csv", index=False)
 print("\nFile-file hasil preprocessing telah disimpan.")
 
 # ========================================================
-# 8. SELEKSI FITUR DENGAN CHI-SQUARE
+# 8. EKSTRAKSI FITUR DENGAN LDA (Linear Discriminant Analysis)
 # ========================================================
-print("\n=== 8. Menjalankan Seleksi Fitur Chi-Square ===")
+print("\n=== 8. Menjalankan Ekstraksi Fitur dengan LDA ===")
 
-# Pisahkan fitur (X) dan target (y) dari df_encoded
-features_for_selection = ['Pclass', 'Sex', 'SibSp', 'Parch', 'Embarked', 'Fare']
-X_fs = df_encoded[features_for_selection]
-y_fs = df_encoded['Survived']
+# Pisahkan fitur (X) dan target (y) dari df_no_outlier agar konsisten
+features_for_lda = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
+X_lda = df_no_outlier[features_for_lda]
+y_lda = df_no_outlier['Survived']
 
-# Inisialisasi dan jalankan SelectKBest untuk memilih 4 fitur terbaik
-chi2_selector = SelectKBest(score_func=chi2, k=4)
-X_kbest = chi2_selector.fit_transform(X_fs, y_fs)
+# LDA bekerja lebih baik dengan data yang di-scaling (distandarisasi)
+scaler_lda = StandardScaler()
+X_lda_scaled = scaler_lda.fit_transform(X_lda)
+
+# Inisialisasi dan menjalankan LDA
+lda = LinearDiscriminantAnalysis(n_components=1)
+X_lda_transformed = lda.fit_transform(X_lda_scaled, y_lda)
 
 # Tampilkan hasilnya
-selected_features_mask = chi2_selector.get_support()
-selected_features = X_fs.columns[selected_features_mask]
-scores = chi2_selector.scores_[selected_features_mask]
+print(f"Shape data fitur asli: {X_lda_scaled.shape}")
+print(f"Shape data setelah transformasi LDA: {X_lda_transformed.shape}")
+print("\nContoh 5 baris data setelah ekstraksi fitur dengan LDA (Komponen LD1):")
+print(pd.DataFrame(X_lda_transformed, columns=['LD1']).head())
 
-print("Fitur terbaik yang dipilih berdasarkan Chi-Square:")
-for feature, score in zip(selected_features, scores):
-    print(f"- {feature}: {score:.2f}")
+# Explained variance ratio menunjukkan seberapa banyak informasi yang ditangkap komponen baru
+print(f"\nExplained Variance Ratio: {lda.explained_variance_ratio_[0]:.4f}")
+print("Artinya, komponen baru (LD1) ini menangkap ~100% informasi yang memisahkan antar kelas.")
+
+# Simpan hasil LDA ke file CSV baru
+df_lda_transformed = pd.DataFrame(X_lda_transformed, columns=['LD1'])
+# Gabungkan dengan kolom target
+df_lda_transformed['Survived'] = y_lda.values
+df_lda_transformed.to_csv("train_lda_transformed.csv", index=False)
+print("\n-> File hasil ekstraksi fitur LDA telah disimpan ke 'train_lda_transformed.csv'.")
+
 
 # ========================================================
 # 9. PENYEIMBANGAN DATA DENGAN SMOTE & VISUALISASI
 # ========================================================
 print("\n=== 9. Menjalankan Penyeimbangan Data dengan SMOTE ===")
 
-# Pisahkan fitur dan target untuk SMOTE
+# Pisahkan fitur dan target untuk SMOTE dari df_encoded (seperti kode asli)
 X_smote = df_encoded.drop(['Survived', 'PassengerId', 'Name', 'Ticket'], axis=1)
 y_smote = df_encoded['Survived']
 
