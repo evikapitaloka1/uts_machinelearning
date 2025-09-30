@@ -13,7 +13,6 @@ from imblearn.over_sampling import SMOTE  # Ditambahkan untuk SMOTE
 
 le = LabelEncoder()
 
-
 # =============================
 # 1. Load Dataset
 # =============================
@@ -32,35 +31,18 @@ print(df.isnull().sum())
 # =============================
 # 3. Handling Missing Value
 # =============================
-# Menggunakan metode yang lebih baik dari dropna()
-# Isi 'Age' dengan median
-
-# Handling Missing Value (lebih aman, tanpa warning)
+# Isi Age dengan median, Embarked dengan modus
 df.fillna({
     'Age': df['Age'].median(),
     'Embarked': df['Embarked'].mode()[0]
 }, inplace=True)
 
-# Hapus kolom 'Cabin' karena terlalu banyak missing value
-df.drop(columns=['Cabin'], inplace=True)
-
-
-
-df['Age'].fillna(df['Age'].median(), inplace=True)
-# Isi 'Embarked' dengan modus
-df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
-# Hapus kolom 'Cabin' karena terlalu banyak missing value
-df.drop('Cabin', axis=1, inplace=True)
-
+# Hapus kolom Cabin karena terlalu banyak missing value
+if 'Cabin' in df.columns:
+    df.drop(columns=['Cabin'], inplace=True)
 
 print("\nDataset setelah menangani missing value:")
 print(df.isnull().sum())
-
-
-
-print("\nDataset setelah menangani missing value:")
-print(df.isnull().sum())
-
 
 # =============================
 # 4. Encoding Variabel Kategorikal
@@ -84,7 +66,6 @@ df_no_outlier = df_encoded[(z_scores < 3).all(axis=1)]
 print(f"Jumlah baris sebelum menghapus outlier: {len(df_encoded)}")
 print(f"Jumlah baris setelah menghapus outlier: {len(df_no_outlier)}")
 
-
 # =============================
 # 6. Transformasi Data
 # =============================
@@ -92,27 +73,21 @@ print("\n=== 6. Menjalankan Transformasi Data ===")
 # --- Min-Max Scaling ---
 scaler_minmax = preprocessing.MinMaxScaler()
 selected_cols = ['Age', 'Fare']
-df_minmax = pd.DataFrame(scaler_minmax.fit_transform(df_no_outlier[selected_cols]),
-                         columns=selected_cols)
+df_minmax = pd.DataFrame(
+    scaler_minmax.fit_transform(df_no_outlier[selected_cols]),
+    columns=selected_cols
+)
 print("Min-Max Scaling (contoh 5 baris):")
 print(df_minmax.head())
 
 # --- Z-Score Standardization ---
 scaler_zscore = StandardScaler()
-df_zscore = pd.DataFrame(scaler_zscore.fit_transform(df_no_outlier[selected_cols]),
-                         columns=selected_cols)
+df_zscore = pd.DataFrame(
+    scaler_zscore.fit_transform(df_no_outlier[selected_cols]),
+    columns=selected_cols
+)
 print("\nZ-Score Standardization (contoh 5 baris):")
 print(df_zscore.head())
-
-
-# # ==============================
-# # 7. Simpan hasil
-# # ==============================
-# df_no_outlier.to_csv("train_cleaned.csv", index=False)
-# df_minmax.to_csv("train_minmax.csv", index=False)
-# df_zscore.to_csv("train_zscore.csv", index=False)
-
-# print("\n=== Semua proses selesai. File hasil tersimpan ===")
 
 # =============================
 # 7. Simpan hasil
@@ -193,4 +168,3 @@ df_balanced.to_csv('train_balanced_smote.csv', index=False)
 print("\n-> Dataset yang seimbang telah disimpan ke 'train_balanced_smote.csv'")
 
 print("\n\n=== SEMUA PROSES SELESAI ===")
-
