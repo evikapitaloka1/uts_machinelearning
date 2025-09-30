@@ -24,12 +24,31 @@ print(df.info())
 print("\n=== Mengecek Missing Value ===")
 print(df.isnull().sum())
 
-# ==============================
+# =============================
 # 3. Handling Missing Value
-# ==============================
-df_cleaned = df.dropna()
-print("\nDataset setelah menghapus missing value:")
-print(df_cleaned.isnull().sum())
+# =============================
+# Menggunakan metode yang lebih baik dari dropna()
+# Isi 'Age' dengan median
+
+# Handling Missing Value (lebih aman, tanpa warning)
+df.fillna({
+    'Age': df['Age'].median(),
+    'Embarked': df['Embarked'].mode()[0]
+}, inplace=True)
+
+# Hapus kolom 'Cabin' karena terlalu banyak missing value
+df.drop(columns=['Cabin'], inplace=True)
+
+
+df['Age'].fillna(df['Age'].median(), inplace=True)
+# Isi 'Embarked' dengan modus
+df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
+# Hapus kolom 'Cabin' karena terlalu banyak missing value
+df.drop('Cabin', axis=1, inplace=True)
+
+print("\nDataset setelah menangani missing value:")
+print(df.isnull().sum())
+
 
 # ==============================
 # 4. Deteksi Outlier (Z-Score)
@@ -86,11 +105,11 @@ df_zscore = pd.DataFrame(scaler.fit_transform(df_no_outlier[selected_cols]),
 print("\nZ-Score Standardization (contoh 5 baris):")
 print(df_zscore.head())
 
-# ==============================
-# 7. Simpan hasil
-# ==============================
-df_no_outlier.to_csv("train_cleaned.csv", index=False)
-df_minmax.to_csv("train_minmax.csv", index=False)
-df_zscore.to_csv("train_zscore.csv", index=False)
+# # ==============================
+# # 7. Simpan hasil
+# # ==============================
+# df_no_outlier.to_csv("train_cleaned.csv", index=False)
+# df_minmax.to_csv("train_minmax.csv", index=False)
+# df_zscore.to_csv("train_zscore.csv", index=False)
 
-print("\n=== Semua proses selesai. File hasil tersimpan ===")
+# print("\n=== Semua proses selesai. File hasil tersimpan ===")
