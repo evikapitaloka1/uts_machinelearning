@@ -12,10 +12,8 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 11,1,3,"Sandstrom, Miss. Marguerite Rut",0,4.0,1,1,PP 9549,16.7,2
 12,1,1,"Bonnell, Miss. Elizabeth",0,58.0,0,0,113783,26.55,2
 13,0,3,"Saundercock, Mr. William Henry",1,20.0,0,0,A/5. 2151,8.05,2
-14,0,3,"Andersson, Mr. Anders Johan",1,39.0,1,5,347082,31.275,2
 15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",0,14.0,0,0,350406,7.8542,2
 16,1,2,"Hewlett, Mrs. (Mary D Kingcome) ",0,55.0,0,0,248706,16.0,2
-17,0,3,"Rice, Master. Eugene",1,2.0,4,1,382652,29.125,1
 18,1,2,"Williams, Mr. Charles Eugene",1,28.0,0,0,244373,13.0,2
 19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",0,31.0,1,0,345763,18.0,2
 20,1,3,"Masselmani, Mrs. Fatima",0,28.0,0,0,2649,7.225,0
@@ -24,9 +22,7 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 23,1,3,"McGowan, Miss. Anna ""Annie""",0,15.0,0,0,330923,8.0292,1
 24,1,1,"Sloper, Mr. William Thompson",1,28.0,0,0,113788,35.5,2
 25,0,3,"Palsson, Miss. Torborg Danira",0,8.0,3,1,349909,21.075,2
-26,1,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",0,38.0,1,5,347077,31.3875,2
 27,0,3,"Emir, Mr. Farred Chehab",1,28.0,0,0,2631,7.225,0
-28,0,1,"Fortune, Mr. Charles Alexander",1,19.0,3,2,19950,263.0,2
 29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",0,28.0,0,0,330959,7.8792,1
 30,0,3,"Todoroff, Mr. Lalio",1,28.0,0,0,349216,7.8958,2
 31,0,1,"Uruchurtu, Don. Manuel E",1,40.0,0,0,PC 17601,27.7208,0
@@ -49,7 +45,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 48,1,3,"O'Driscoll, Miss. Bridget",0,28.0,0,0,14311,7.75,1
 49,0,3,"Samaan, Mr. Youssef",1,28.0,2,0,2662,21.6792,0
 50,0,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",0,18.0,1,0,349237,17.8,2
-51,0,3,"Panula, Master. Juha Niilo",1,7.0,4,1,3101295,39.6875,2
 52,0,3,"Nosworthy, Mr. Richard Cater",1,21.0,0,0,A/4. 39886,7.8,2
 53,1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",0,49.0,1,0,PC 17572,76.7292,0
 54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",0,29.0,1,0,2926,26.0,2
@@ -58,7 +53,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 57,1,2,"Rugg, Miss. Emily",0,21.0,0,0,C.A. 31026,10.5,2
 58,0,3,"Novel, Mr. Mansouer",1,28.5,0,0,2697,7.2292,0
 59,1,2,"West, Miss. Constance Mirium",0,5.0,1,2,C.A. 34651,27.75,2
-60,0,3,"Goodwin, Master. William Frederick",1,11.0,5,2,CA 2144,46.9,2
 61,0,3,"Sirayanian, Mr. Orsen",1,22.0,0,0,2669,7.2292,0
 62,1,1,"Icard, Miss. Amelie",0,38.0,0,0,113572,80.0,2
 63,0,1,"Harris, Mr. Henry Birkhardt",1,45.0,1,0,36973,83.475,2
@@ -67,10 +61,8 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 66,1,3,"Moubarek, Master. Gerios",1,28.0,1,1,2661,15.2458,0
 67,1,2,"Nye, Mrs. (Elizabeth Ramell)",0,29.0,0,0,C.A. 29395,10.5,2
 68,0,3,"Crease, Mr. Ernest James",1,19.0,0,0,S.P. 3464,8.1583,2
-69,1,3,"Andersson, Miss. Erna Alexandra",0,17.0,4,2,3101281,7.925,2
 70,0,3,"Kink, Mr. Vincenz",1,26.0,2,0,315151,8.6625,2
 71,0,2,"Jenkin, Mr. Stephen Curnow",1,32.0,0,0,C.A. 33111,10.5,2
-72,0,3,"Goodwin, Miss. Lillian Amy",0,16.0,5,2,CA 2144,46.9,2
 73,0,2,"Hood, Mr. Ambrose Jr",1,21.0,0,0,S.O.C. 14879,73.5,2
 74,0,3,"Chronopoulos, Mr. Apostolos",1,26.0,1,0,2680,14.4542,0
 75,1,3,"Bing, Mr. Lee",1,32.0,0,0,1601,56.4958,2
@@ -85,9 +77,7 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 84,0,1,"Carrau, Mr. Francisco M",1,28.0,0,0,113059,47.1,2
 85,1,2,"Ilett, Miss. Bertha",0,17.0,0,0,SO/C 14885,10.5,2
 86,1,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",0,33.0,3,0,3101278,15.85,2
-87,0,3,"Ford, Mr. William Neal",1,16.0,1,3,W./C. 6608,34.375,2
 88,0,3,"Slocovski, Mr. Selman Francis",1,28.0,0,0,SOTON/OQ 392086,8.05,2
-89,1,1,"Fortune, Miss. Mabel Helen",0,23.0,3,2,19950,263.0,2
 90,0,3,"Celotti, Mr. Francesco",1,24.0,0,0,343275,8.05,2
 91,0,3,"Christmann, Mr. Emil",1,29.0,0,0,343276,8.05,2
 92,0,3,"Andreasson, Mr. Paul Edvin",1,20.0,0,0,347466,7.8542,2
@@ -95,7 +85,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 94,0,3,"Dean, Mr. Bertram Frank",1,26.0,1,2,C.A. 2315,20.575,2
 95,0,3,"Coxon, Mr. Daniel",1,59.0,0,0,364500,7.25,2
 96,0,3,"Shorney, Mr. Charles Joseph",1,28.0,0,0,374910,8.05,2
-97,0,1,"Goldschmidt, Mr. George B",1,71.0,0,0,PC 17754,34.6542,0
 98,1,1,"Greenfield, Mr. William Bertram",1,23.0,0,1,PC 17759,63.3583,0
 99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",0,34.0,0,1,231919,23.0,2
 100,0,2,"Kantor, Mr. Sinai",1,34.0,1,0,244367,26.0,2
@@ -115,10 +104,7 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 114,0,3,"Jussila, Miss. Katriina",0,20.0,1,0,4136,9.825,2
 115,0,3,"Attalah, Miss. Malake",0,17.0,0,0,2627,14.4583,0
 116,0,3,"Pekoniemi, Mr. Edvard",1,21.0,0,0,STON/O 2. 3101294,7.925,2
-117,0,3,"Connors, Mr. Patrick",1,70.5,0,0,370369,7.75,1
 118,0,2,"Turpin, Mr. William John Robert",1,29.0,1,0,11668,21.0,2
-119,0,1,"Baxter, Mr. Quigg Edmond",1,24.0,0,1,PC 17558,247.5208,0
-120,0,3,"Andersson, Miss. Ellis Anna Maria",0,2.0,4,2,347082,31.275,2
 121,0,2,"Hickman, Mr. Stanley George",1,21.0,2,0,S.O.C. 14879,73.5,2
 122,0,3,"Moore, Mr. Leonard Charles",1,28.0,0,0,A4. 54510,8.05,2
 123,0,2,"Nasser, Mr. Nicholas",1,32.5,1,0,237736,30.0708,0
@@ -158,19 +144,15 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 157,1,3,"Gilnagh, Miss. Katherine ""Katie""",0,16.0,0,0,35851,7.7333,1
 158,0,3,"Corn, Mr. Harry",1,30.0,0,0,SOTON/OQ 392090,8.05,2
 159,0,3,"Smiljanic, Mr. Mile",1,28.0,0,0,315037,8.6625,2
-160,0,3,"Sage, Master. Thomas Henry",1,28.0,8,2,CA. 2343,69.55,2
 161,0,3,"Cribb, Mr. John Hatfield",1,44.0,0,1,371362,16.1,2
 162,1,2,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",0,40.0,0,0,C.A. 33595,15.75,2
 163,0,3,"Bengtsson, Mr. John Viktor",1,26.0,0,0,347068,7.775,2
 164,0,3,"Calic, Mr. Jovo",1,17.0,0,0,315093,8.6625,2
-165,0,3,"Panula, Master. Eino Viljami",1,1.0,4,1,3101295,39.6875,2
 166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",1,9.0,0,2,363291,20.525,2
 167,1,1,"Chibnall, Mrs. (Edith Martha Bowerman)",0,28.0,0,1,113505,55.0,2
-168,0,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",0,45.0,1,4,347088,27.9,2
 169,0,1,"Baumann, Mr. John D",1,28.0,0,0,PC 17318,25.925,2
 170,0,3,"Ling, Mr. Lee",1,28.0,0,0,1601,56.4958,2
 171,0,1,"Van der hoef, Mr. Wyckoff",1,61.0,0,0,111240,33.5,2
-172,0,3,"Rice, Master. Arthur",1,4.0,4,1,382652,29.125,1
 173,1,3,"Johnson, Miss. Eleanor Ileen",0,1.0,1,1,347742,11.1333,2
 174,0,3,"Sivola, Mr. Antti Wilhelm",1,21.0,0,0,STON/O 2. 3101280,7.925,2
 175,0,1,"Smith, Mr. James Clinch",1,56.0,0,0,17764,30.6958,0
@@ -179,9 +161,7 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 178,0,1,"Isham, Miss. Ann Elizabeth",0,50.0,0,0,PC 17595,28.7125,0
 179,0,2,"Hale, Mr. Reginald",1,30.0,0,0,250653,13.0,2
 180,0,3,"Leonard, Mr. Lionel",1,36.0,0,0,LINE,0.0,2
-181,0,3,"Sage, Miss. Constance Gladys",0,28.0,8,2,CA. 2343,69.55,2
 182,0,2,"Pernot, Mr. Rene",1,28.0,0,0,SC/PARIS 2131,15.05,0
-183,0,3,"Asplund, Master. Clarence Gustaf Hugo",1,9.0,4,2,347077,31.3875,2
 184,1,2,"Becker, Master. Richard F",1,1.0,2,1,230136,39.0,2
 185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",0,4.0,0,2,315153,22.025,2
 186,0,1,"Rood, Mr. Hugh Roscoe",1,28.0,0,0,113767,50.0,2
@@ -200,7 +180,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 199,1,3,"Madigan, Miss. Margaret ""Maggie""",0,28.0,0,0,370370,7.75,1
 200,0,2,"Yrois, Miss. Henriette (""Mrs Harbeck"")",0,24.0,0,0,248747,13.0,2
 201,0,3,"Vande Walle, Mr. Nestor Cyriel",1,28.0,0,0,345770,9.5,2
-202,0,3,"Sage, Mr. Frederick",1,28.0,8,2,CA. 2343,69.55,2
 203,0,3,"Johanson, Mr. Jakob Alfred",1,34.0,0,0,3101264,6.4958,2
 204,0,3,"Youseff, Mr. Gerious",1,45.5,0,0,2628,7.225,0
 205,1,3,"Cohen, Mr. Gurshon ""Gus""",1,18.0,0,0,A/5 3540,8.05,2
@@ -232,7 +211,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 231,1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",0,35.0,1,0,36973,83.475,2
 232,0,3,"Larsson, Mr. Bengt Edvin",1,29.0,0,0,347067,7.775,2
 233,0,2,"Sjostedt, Mr. Ernst Adolf",1,59.0,0,0,237442,13.5,2
-234,1,3,"Asplund, Miss. Lillian Gertrud",0,5.0,4,2,347077,31.3875,2
 235,0,2,"Leyson, Mr. Robert William Norman",1,24.0,0,0,C.A. 29566,10.5,2
 236,0,3,"Harknett, Miss. Alice Phoebe",0,28.0,0,0,W./C. 6609,7.55,2
 237,0,2,"Hold, Mr. Stephen",1,44.0,1,0,26707,26.0,2
@@ -257,15 +235,12 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 256,1,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",0,29.0,0,2,2650,15.2458,0
 257,1,1,"Thorne, Mrs. Gertrude Maybelle",0,28.0,0,0,PC 17585,79.2,0
 258,1,1,"Cherry, Miss. Gladys",0,30.0,0,0,110152,86.5,2
-259,1,1,"Ward, Miss. Anna",0,35.0,0,0,PC 17755,512.3292,0
 260,1,2,"Parrish, Mrs. (Lutie Davis)",0,50.0,0,1,230433,26.0,2
 261,0,3,"Smith, Mr. Thomas",1,28.0,0,0,384461,7.75,1
-262,1,3,"Asplund, Master. Edvin Rojj Felix",1,3.0,4,2,347077,31.3875,2
 263,0,1,"Taussig, Mr. Emil",1,52.0,1,1,110413,79.65,2
 264,0,1,"Harrison, Mr. William",1,40.0,0,0,112059,0.0,2
 265,0,3,"Henry, Miss. Delia",0,28.0,0,0,382649,7.75,1
 266,0,2,"Reeves, Mr. David",1,36.0,0,0,C.A. 17248,10.5,2
-267,0,3,"Panula, Mr. Ernesti Arvid",1,16.0,4,1,3101295,39.6875,2
 268,1,3,"Persson, Mr. Ernst Ulrik",1,25.0,1,0,347083,7.775,2
 269,1,1,"Graham, Mrs. William Thompson (Edith Junkins)",0,58.0,0,1,PC 17582,153.4625,2
 270,1,1,"Bissette, Miss. Amelia",0,35.0,0,0,PC 17760,135.6333,2
@@ -277,7 +252,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 276,1,1,"Andrews, Miss. Kornelia Theodosia",0,63.0,1,0,13502,77.9583,2
 277,0,3,"Lindblom, Miss. Augusta Charlotta",0,45.0,0,0,347073,7.75,2
 278,0,2,"Parkes, Mr. Francis ""Frank""",1,28.0,0,0,239853,0.0,2
-279,0,3,"Rice, Master. Eric",1,7.0,4,1,382652,29.125,1
 280,1,3,"Abbott, Mrs. Stanton (Rosa Hunt)",0,35.0,1,1,C.A. 2673,20.25,2
 281,0,3,"Duane, Mr. Frank",1,65.0,0,0,336439,7.75,1
 282,0,3,"Olsson, Mr. Nils Johan Goransson",1,28.0,0,0,347464,7.8542,2
@@ -298,7 +272,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 297,0,3,"Hanna, Mr. Mansour",1,23.5,0,0,2693,7.2292,0
 298,0,1,"Allison, Miss. Helen Loraine",0,2.0,1,2,113781,151.55,2
 299,1,1,"Saalfeld, Mr. Adolphe",1,28.0,0,0,19988,30.5,2
-300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",0,50.0,0,1,PC 17558,247.5208,0
 301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",0,28.0,0,0,9234,7.75,1
 302,1,3,"McCoy, Mr. Bernard",1,28.0,2,0,367226,23.25,1
 303,0,3,"Johnson, Mr. William Cahoone Jr",1,19.0,0,0,LINE,0.0,2
@@ -310,7 +283,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 309,0,2,"Abelson, Mr. Samuel",1,30.0,1,0,P/PP 3381,24.0,0
 310,1,1,"Francatelli, Miss. Laura Mabel",0,30.0,0,0,PC 17485,56.9292,0
 311,1,1,"Hays, Miss. Margaret Bechstein",0,24.0,0,0,11767,83.1583,0
-312,1,1,"Ryerson, Miss. Emily Borie",0,18.0,2,2,PC 17608,262.375,0
 313,0,2,"Lahtinen, Mrs. William (Anna Sylfven)",0,26.0,1,1,250651,26.0,2
 314,0,3,"Hendekovic, Mr. Ignjac",1,28.0,0,0,349243,7.8958,2
 315,0,2,"Hart, Mr. Benjamin",1,43.0,1,1,F.C.C. 13529,26.25,2
@@ -323,7 +295,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 322,0,3,"Danoff, Mr. Yoto",1,27.0,0,0,349219,7.8958,2
 323,1,2,"Slayter, Miss. Hilda Mary",0,30.0,0,0,234818,12.35,1
 324,1,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",0,22.0,1,1,248738,29.0,2
-325,0,3,"Sage, Mr. George John Jr",1,28.0,8,2,CA. 2343,69.55,2
 326,1,1,"Young, Miss. Marie Grice",0,36.0,0,0,PC 17760,135.6333,0
 327,0,3,"Nysveen, Mr. Johan Hansen",1,61.0,0,0,345364,6.2375,2
 328,1,2,"Ball, Mrs. (Ada E Hall)",0,36.0,0,0,28551,13.0,2
@@ -340,7 +311,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 339,1,3,"Dahl, Mr. Karl Edwart",1,45.0,0,0,7598,8.05,2
 340,0,1,"Blackwell, Mr. Stephen Weart",1,45.0,0,0,113784,35.5,2
 341,1,2,"Navratil, Master. Edmond Roger",1,2.0,1,1,230080,26.0,2
-342,1,1,"Fortune, Miss. Alice Elizabeth",0,24.0,3,2,19950,263.0,2
 343,0,2,"Collander, Mr. Erik Gustaf",1,28.0,0,0,248740,13.0,2
 344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",1,25.0,0,0,244361,13.0,2
 345,0,2,"Fox, Mr. Stanley Hubert",1,36.0,0,0,229236,13.0,2
@@ -359,7 +329,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 358,0,2,"Funk, Miss. Annie Clemmer",0,38.0,0,0,237671,13.0,2
 359,1,3,"McGovern, Miss. Mary",0,28.0,0,0,330931,7.8792,1
 360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",0,28.0,0,0,330980,7.8792,1
-361,0,3,"Skoog, Mr. Wilhelm",1,40.0,1,4,347088,27.9,2
 362,0,2,"del Carlo, Mr. Sebastiano",1,29.0,1,0,SC/PARIS 2167,27.7208,0
 363,0,3,"Barbara, Mrs. (Catherine David)",0,45.0,0,1,2691,14.4542,0
 364,0,3,"Asim, Mr. Adola",1,35.0,0,0,SOTON/O.Q. 3101310,7.05,2
@@ -376,16 +345,13 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 375,0,3,"Palsson, Miss. Stina Viola",0,3.0,3,1,349909,21.075,2
 376,1,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",0,28.0,1,0,PC 17604,82.1708,0
 377,1,3,"Landergren, Miss. Aurora Adelia",0,22.0,0,0,C 7077,7.25,2
-378,0,1,"Widener, Mr. Harry Elkins",1,27.0,0,2,113503,211.5,0
 379,0,3,"Betros, Mr. Tannous",1,20.0,0,0,2648,4.0125,0
 380,0,3,"Gustafsson, Mr. Karl Gideon",1,19.0,0,0,347069,7.775,2
-381,1,1,"Bidois, Miss. Rosalie",0,42.0,0,0,PC 17757,227.525,0
 382,1,3,"Nakid, Miss. Maria (""Mary"")",0,1.0,0,2,2653,15.7417,0
 383,0,3,"Tikkanen, Mr. Juho",1,32.0,0,0,STON/O 2. 3101293,7.925,2
 384,1,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",0,35.0,1,0,113789,52.0,2
 385,0,3,"Plotcharsky, Mr. Vasil",1,28.0,0,0,349227,7.8958,2
 386,0,2,"Davies, Mr. Charles Henry",1,18.0,0,0,S.O.C. 14879,73.5,2
-387,0,3,"Goodwin, Master. Sidney Leonard",1,1.0,5,2,CA 2144,46.9,2
 388,1,2,"Buss, Miss. Kate",0,36.0,0,0,27849,13.0,2
 389,0,3,"Sadlier, Mr. Matthew",1,28.0,0,0,367655,7.7292,1
 390,1,2,"Lehmann, Miss. Bertha",0,17.0,0,0,SC 1748,12.0,0
@@ -436,8 +402,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 435,0,1,"Silvey, Mr. William Baird",1,50.0,1,0,13507,55.9,2
 436,1,1,"Carter, Miss. Lucile Polk",0,14.0,1,2,113760,120.0,2
 437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",0,21.0,2,2,W./C. 6608,34.375,2
-438,1,2,"Richards, Mrs. Sidney (Emily Hocking)",0,24.0,2,3,29106,18.75,2
-439,0,1,"Fortune, Mr. Mark",1,64.0,1,4,19950,263.0,2
 440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",1,31.0,0,0,C.A. 18723,10.5,2
 441,1,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",0,45.0,1,1,F.C.C. 13529,26.25,2
 442,0,3,"Hampe, Mr. Leon",1,20.0,0,0,345769,9.5,2
@@ -479,7 +443,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 478,0,3,"Braund, Mr. Lewis Richard",1,29.0,1,0,3460,7.0458,2
 479,0,3,"Karlsson, Mr. Nils August",1,22.0,0,0,350060,7.5208,2
 480,1,3,"Hirvonen, Miss. Hildur E",0,2.0,0,1,3101298,12.2875,2
-481,0,3,"Goodwin, Master. Harold Victor",1,9.0,5,2,CA 2144,46.9,2
 482,0,2,"Frost, Mr. Anthony Wood ""Archie""",1,28.0,0,0,239854,0.0,2
 483,0,3,"Rouse, Mr. Richard Henry",1,50.0,0,0,A/5 3594,8.05,2
 484,1,3,"Turkula, Mrs. (Hedwig)",0,63.0,0,0,4134,9.5875,2
@@ -492,7 +455,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",1,28.0,1,0,65304,19.9667,2
 492,0,3,"Windelov, Mr. Einar",1,21.0,0,0,SOTON/OQ 3101317,7.25,2
 493,0,1,"Molson, Mr. Harry Markland",1,55.0,0,0,113787,30.5,2
-494,0,1,"Artagaveytia, Mr. Ramon",1,71.0,0,0,PC 17609,49.5042,0
 495,0,3,"Stanley, Mr. Edward Roland",1,21.0,0,0,A/4 45380,8.05,2
 496,0,3,"Yousseff, Mr. Gerious",1,28.0,0,0,2627,14.4583,0
 497,1,1,"Eustis, Miss. Elizabeth Mussey",0,54.0,1,0,36947,78.2667,0
@@ -526,7 +488,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 525,0,3,"Kassem, Mr. Fared",1,28.0,0,0,2700,7.2292,0
 526,0,3,"Farrell, Mr. James",1,40.5,0,0,367232,7.75,1
 527,1,2,"Ridsdale, Miss. Lucy",0,50.0,0,0,W./C. 14258,10.5,2
-528,0,1,"Farthing, Mr. John",1,28.0,0,0,PC 17483,221.7792,2
 529,0,3,"Salonen, Mr. Johan Werner",1,39.0,0,0,3101296,7.925,2
 530,0,2,"Hocking, Mr. Richard George",1,23.0,2,1,29104,11.5,2
 531,1,2,"Quick, Miss. Phyllis May",0,2.0,1,1,26360,26.0,2
@@ -540,8 +501,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 539,0,3,"Risien, Mr. Samuel Beard",1,28.0,0,0,364498,14.5,2
 540,1,1,"Frolicher, Miss. Hedwig Margaritha",0,22.0,0,2,13568,49.5,0
 541,1,1,"Crosby, Miss. Harriet R",0,36.0,0,2,WE/P 5735,71.0,2
-542,0,3,"Andersson, Miss. Ingeborg Constanzia",0,9.0,4,2,347082,31.275,2
-543,0,3,"Andersson, Miss. Sigrid Elisabeth",0,11.0,4,2,347082,31.275,2
 544,1,2,"Beane, Mr. Edward",1,32.0,1,0,2908,26.0,2
 545,0,1,"Douglas, Mr. Walter Donald",1,50.0,1,0,PC 17761,106.425,0
 546,0,1,"Nicholson, Mr. Arthur Ernest",1,64.0,0,0,693,26.0,2
@@ -556,7 +515,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 555,1,3,"Ohman, Miss. Velin",0,22.0,0,0,347085,7.775,2
 556,0,1,"Wright, Mr. George",1,62.0,0,0,113807,26.55,2
 557,1,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",0,48.0,1,0,11755,39.6,0
-558,0,1,"Robbins, Mr. Victor",1,28.0,0,0,PC 17757,227.525,0
 559,1,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",0,39.0,1,1,110413,79.65,2
 560,1,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",0,36.0,1,0,345572,17.4,2
 561,0,3,"Morrow, Mr. Thomas Rowan",1,28.0,0,0,372622,7.75,1
@@ -566,7 +524,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 565,0,3,"Meanwell, Miss. (Marion Ogden)",0,28.0,0,0,SOTON/O.Q. 392087,8.05,2
 566,0,3,"Davies, Mr. Alfred J",1,24.0,2,0,A/4 48871,24.15,2
 567,0,3,"Stoytcheff, Mr. Ilia",1,19.0,0,0,349205,7.8958,2
-568,0,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",0,29.0,0,4,349909,21.075,2
 569,0,3,"Doharr, Mr. Tannous",1,28.0,0,0,2686,7.2292,0
 570,1,3,"Jonsson, Mr. Carl",1,32.0,0,0,350417,7.8542,2
 571,1,2,"Harris, Mr. George",1,62.0,0,0,S.W./PP 752,10.5,2
@@ -609,7 +566,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 608,1,1,"Daniel, Mr. Robert Williams",1,27.0,0,0,113804,30.5,2
 609,1,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",0,22.0,1,2,SC/Paris 2123,41.5792,0
 610,1,1,"Shutes, Miss. Elizabeth W",0,40.0,0,0,PC 17582,153.4625,2
-611,0,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",0,39.0,1,5,347082,31.275,2
 612,0,3,"Jardin, Mr. Jose Neto",1,28.0,0,0,SOTON/O.Q. 3101305,7.05,2
 613,1,3,"Murphy, Miss. Margaret Jane",0,28.0,1,0,367230,15.5,1
 614,0,3,"Horgan, Mr. John",1,28.0,0,0,370377,7.75,1
@@ -629,7 +585,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 628,1,1,"Longley, Miss. Gretchen Fiske",0,21.0,0,0,13502,77.9583,2
 629,0,3,"Bostandyeff, Mr. Guentcho",1,26.0,0,0,349224,7.8958,2
 630,0,3,"O'Connell, Mr. Patrick D",1,28.0,0,0,334912,7.7333,1
-631,1,1,"Barkworth, Mr. Algernon Henry Wilson",1,80.0,0,0,27042,30.0,2
 632,0,3,"Lundahl, Mr. Johan Svensson",1,51.0,0,0,347743,7.0542,2
 633,1,1,"Stahelin-Maeglin, Dr. Max",1,32.0,0,0,13214,30.5,0
 634,0,1,"Parr, Mr. William Henry Marsh",1,28.0,0,0,112052,0.0,2
@@ -637,7 +592,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 636,1,2,"Davis, Miss. Mary",0,28.0,0,0,237668,13.0,2
 637,0,3,"Leinonen, Mr. Antti Gustaf",1,32.0,0,0,STON/O 2. 3101292,7.925,2
 638,0,2,"Collyer, Mr. Harvey",1,31.0,1,1,C.A. 31921,26.25,2
-639,0,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",0,41.0,0,5,3101295,39.6875,2
 640,0,3,"Thorneycroft, Mr. Percival",1,28.0,1,0,376564,16.1,2
 641,0,3,"Jensen, Mr. Hans Peder",1,20.0,0,0,350050,7.8542,2
 642,1,1,"Sagesser, Mlle. Emma",0,24.0,0,0,PC 17477,69.3,0
@@ -671,24 +625,18 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 670,1,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",0,28.0,1,0,19996,52.0,2
 671,1,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",0,40.0,1,1,29750,39.0,2
 672,0,1,"Davidson, Mr. Thornton",1,31.0,1,0,F.C. 12750,52.0,2
-673,0,2,"Mitchell, Mr. Henry Michael",1,70.0,0,0,C.A. 24580,10.5,2
 674,1,2,"Wilhelms, Mr. Charles",1,31.0,0,0,244270,13.0,2
 675,0,2,"Watson, Mr. Ennis Hastings",1,28.0,0,0,239856,0.0,2
 676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",1,18.0,0,0,349912,7.775,2
 677,0,3,"Sawyer, Mr. Frederick Charles",1,24.5,0,0,342826,8.05,2
 678,1,3,"Turja, Miss. Anna Sofia",0,18.0,0,0,4138,9.8417,2
-679,0,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",0,43.0,1,6,CA 2144,46.9,2
-680,1,1,"Cardeza, Mr. Thomas Drake Martinez",1,36.0,0,1,PC 17755,512.3292,0
 681,0,3,"Peters, Miss. Katie",0,28.0,0,0,330935,8.1375,1
 682,1,1,"Hassab, Mr. Hammad",1,27.0,0,0,PC 17572,76.7292,0
 683,0,3,"Olsvigen, Mr. Thor Anderson",1,20.0,0,0,6563,9.225,2
-684,0,3,"Goodwin, Mr. Charles Edward",1,14.0,5,2,CA 2144,46.9,2
 685,0,2,"Brown, Mr. Thomas William Solomon",1,60.0,1,1,29750,39.0,2
 686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",1,25.0,1,2,SC/Paris 2123,41.5792,0
-687,0,3,"Panula, Mr. Jaako Arnold",1,14.0,4,1,3101295,39.6875,2
 688,0,3,"Dakic, Mr. Branko",1,19.0,0,0,349228,10.1708,2
 689,0,3,"Fischer, Mr. Eberhard Thelander",1,18.0,0,0,350036,7.7958,2
-690,1,1,"Madill, Miss. Georgette Alexandra",0,15.0,0,1,24160,211.3375,2
 691,1,1,"Dick, Mr. Albert Adrian",1,31.0,1,0,17474,57.0,2
 692,1,3,"Karun, Miss. Manca",0,4.0,0,1,349256,13.4167,0
 693,1,3,"Lam, Mr. Ali",1,28.0,0,0,1601,56.4958,2
@@ -699,7 +647,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 698,1,3,"Mullens, Miss. Katherine ""Katie""",0,28.0,0,0,35852,7.7333,1
 699,0,1,"Thayer, Mr. John Borland",1,49.0,1,1,17421,110.8833,0
 700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",1,42.0,0,0,348121,7.65,2
-701,1,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",0,18.0,1,0,PC 17757,227.525,0
 702,1,1,"Silverthorne, Mr. Spencer Victor",1,35.0,0,0,PC 17475,26.2875,2
 703,0,3,"Barbara, Miss. Saiide",0,18.0,0,1,2691,14.4542,0
 704,0,3,"Gallagher, Mr. Martin",1,25.0,0,0,36864,7.7417,1
@@ -715,7 +662,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 714,0,3,"Larsson, Mr. August Viktor",1,29.0,0,0,7545,9.4833,2
 715,0,2,"Greenberg, Mr. Samuel",1,52.0,0,0,250647,13.0,2
 716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",1,19.0,0,0,348124,7.65,2
-717,1,1,"Endres, Miss. Caroline Louise",0,38.0,0,0,PC 17757,227.525,0
 718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",0,27.0,0,0,34218,10.5,2
 719,0,3,"McEvoy, Mr. Michael",1,28.0,0,0,36568,15.5,1
 720,0,3,"Johnson, Mr. Malkolm Joackim",1,33.0,0,0,347062,7.775,2
@@ -729,22 +675,17 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 728,1,3,"Mannion, Miss. Margareth",0,28.0,0,0,36866,7.7375,1
 729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",1,25.0,1,0,236853,26.0,2
 730,0,3,"Ilmakangas, Miss. Pieta Sofia",0,25.0,1,0,STON/O2. 3101271,7.925,2
-731,1,1,"Allen, Miss. Elisabeth Walton",0,29.0,0,0,24160,211.3375,2
 732,0,3,"Hassan, Mr. Houssein G N",1,11.0,0,0,2699,18.7875,0
 733,0,2,"Knight, Mr. Robert J",1,28.0,0,0,239855,0.0,2
 734,0,2,"Berriman, Mr. William John",1,23.0,0,0,28425,13.0,2
 735,0,2,"Troupiansky, Mr. Moses Aaron",1,23.0,0,0,233639,13.0,2
 736,0,3,"Williams, Mr. Leslie",1,28.5,0,0,54636,16.1,2
-737,0,3,"Ford, Mrs. Edward (Margaret Ann Watson)",0,48.0,1,3,W./C. 6608,34.375,2
-738,1,1,"Lesurer, Mr. Gustave J",1,35.0,0,0,PC 17755,512.3292,0
 739,0,3,"Ivanoff, Mr. Kanio",1,28.0,0,0,349201,7.8958,2
 740,0,3,"Nankoff, Mr. Minko",1,28.0,0,0,349218,7.8958,2
 741,1,1,"Hawksford, Mr. Walter James",1,28.0,0,0,16988,30.0,2
 742,0,1,"Cavendish, Mr. Tyrell William",1,36.0,1,0,19877,78.85,2
-743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",0,21.0,2,2,PC 17608,262.375,0
 744,0,3,"McNamee, Mr. Neal",1,24.0,1,0,376566,16.1,2
 745,1,3,"Stranden, Mr. Juho",1,31.0,0,0,STON/O 2. 3101288,7.925,2
-746,0,1,"Crosby, Capt. Edward Gifford",1,70.0,1,1,WE/P 5735,71.0,2
 747,0,3,"Abbott, Mr. Rossmore Edward",1,16.0,1,1,C.A. 2673,20.25,2
 748,1,2,"Sinkkonen, Miss. Anna",0,30.0,0,0,250648,13.0,2
 749,0,1,"Marvin, Mr. Daniel Warner",1,19.0,1,0,113773,53.1,2
@@ -773,12 +714,10 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 772,0,3,"Jensen, Mr. Niels Peder",1,48.0,0,0,350047,7.8542,2
 773,0,2,"Mack, Mrs. (Mary)",0,57.0,0,0,S.O./P.P. 3,10.5,2
 774,0,3,"Elias, Mr. Dibo",1,28.0,0,0,2674,7.225,0
-775,1,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",0,54.0,1,3,29105,23.0,2
 776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",1,18.0,0,0,347078,7.75,2
 777,0,3,"Tobin, Mr. Roger",1,28.0,0,0,383121,7.75,1
 778,1,3,"Emanuel, Miss. Virginia Ethel",0,5.0,0,0,364516,12.475,2
 779,0,3,"Kilgannon, Mr. Thomas J",1,28.0,0,0,36865,7.7375,1
-780,1,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",0,43.0,0,1,24160,211.3375,2
 781,1,3,"Ayoub, Miss. Banoura",0,13.0,0,0,2687,7.2292,0
 782,1,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",0,17.0,1,0,17474,57.0,2
 783,0,1,"Long, Mr. Milton Clyde",1,29.0,0,0,113501,30.0,2
@@ -786,12 +725,10 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 785,0,3,"Ali, Mr. William",1,25.0,0,0,SOTON/O.Q. 3101312,7.05,2
 786,0,3,"Harmer, Mr. Abraham (David Lishin)",1,25.0,0,0,374887,7.25,2
 787,1,3,"Sjoblom, Miss. Anna Sofia",0,18.0,0,0,3101265,7.4958,2
-788,0,3,"Rice, Master. George Hugh",1,8.0,4,1,382652,29.125,1
 789,1,3,"Dean, Master. Bertram Vere",1,1.0,1,2,C.A. 2315,20.575,2
 790,0,1,"Guggenheim, Mr. Benjamin",1,46.0,0,0,PC 17593,79.2,0
 791,0,3,"Keane, Mr. Andrew ""Andy""",1,28.0,0,0,12460,7.75,1
 792,0,2,"Gaskell, Mr. Alfred",1,16.0,0,0,239865,26.0,2
-793,0,3,"Sage, Miss. Stella Anna",0,28.0,8,2,CA. 2343,69.55,2
 794,0,1,"Hoyt, Mr. William Fisher",1,28.0,0,0,PC 17600,30.6958,0
 795,0,3,"Dantcheff, Mr. Ristiu",1,25.0,0,0,349203,7.8958,2
 796,0,2,"Otter, Mr. Richard",1,39.0,0,0,28213,13.0,2
@@ -812,7 +749,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 811,0,3,"Alexander, Mr. William",1,26.0,0,0,3474,7.8875,2
 812,0,3,"Lester, Mr. James",1,39.0,0,0,A/4 48871,24.15,2
 813,0,2,"Slemen, Mr. Richard James",1,35.0,0,0,28206,10.5,2
-814,0,3,"Andersson, Miss. Ebba Iris Alfrida",0,6.0,4,2,347082,31.275,2
 815,0,3,"Tomlin, Mr. Ernest Portage",1,30.5,0,0,364499,8.05,2
 816,0,1,"Fry, Mr. Richard",1,28.0,0,0,112058,0.0,2
 817,0,3,"Heininen, Miss. Wendla Maria",0,23.0,0,0,STON/O2. 3101290,7.925,2
@@ -823,7 +759,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 822,1,3,"Lulic, Mr. Nikola",1,27.0,0,0,315098,8.6625,2
 823,0,1,"Reuchlin, Jonkheer. John George",1,38.0,0,0,19972,0.0,2
 824,1,3,"Moor, Mrs. (Beila)",0,27.0,0,1,392096,12.475,2
-825,0,3,"Panula, Master. Urho Abraham",1,2.0,4,1,3101295,39.6875,2
 826,0,3,"Flynn, Mr. John",1,28.0,0,0,368323,6.95,1
 827,0,3,"Lam, Mr. Len",1,28.0,0,0,1601,56.4958,2
 828,1,2,"Mallet, Master. Andre",1,1.0,0,2,S.C./PARIS 2079,37.0042,0
@@ -845,24 +780,19 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 844,0,3,"Lemberopolous, Mr. Peter L",1,34.5,0,0,2683,6.4375,0
 845,0,3,"Culumovic, Mr. Jeso",1,17.0,0,0,315090,8.6625,2
 846,0,3,"Abbing, Mr. Anthony",1,42.0,0,0,C.A. 5547,7.55,2
-847,0,3,"Sage, Mr. Douglas Bullen",1,28.0,8,2,CA. 2343,69.55,2
 848,0,3,"Markoff, Mr. Marin",1,35.0,0,0,349213,7.8958,0
 849,0,2,"Harper, Rev. John",1,28.0,0,1,248727,33.0,2
 850,1,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",0,28.0,1,0,17453,89.1042,0
-851,0,3,"Andersson, Master. Sigvard Harald Elias",1,4.0,4,2,347082,31.275,2
-852,0,3,"Svensson, Mr. Johan",1,74.0,0,0,347060,7.775,2
 853,0,3,"Boulos, Miss. Nourelain",0,9.0,1,1,2678,15.2458,0
 854,1,1,"Lines, Miss. Mary Conover",0,16.0,0,1,PC 17592,39.4,2
 855,0,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",0,44.0,1,0,244252,26.0,2
 856,1,3,"Aks, Mrs. Sam (Leah Rosen)",0,18.0,0,1,392091,9.35,2
 857,1,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",0,45.0,1,1,36928,164.8667,2
 858,1,1,"Daly, Mr. Peter Denis ",1,51.0,0,0,113055,26.55,2
-859,1,3,"Baclini, Mrs. Solomon (Latifa Qurban)",0,24.0,0,3,2666,19.2583,0
 860,0,3,"Razi, Mr. Raihed",1,28.0,0,0,2629,7.2292,0
 861,0,3,"Hansen, Mr. Claus Peter",1,41.0,2,0,350026,14.1083,2
 862,0,2,"Giles, Mr. Frederick Edward",1,21.0,1,0,28134,11.5,2
 863,1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",0,48.0,0,0,17466,25.9292,2
-864,0,3,"Sage, Miss. Dorothy Edith ""Dolly""",0,28.0,8,2,CA. 2343,69.55,2
 865,0,2,"Gill, Mr. John William",1,24.0,0,0,233866,13.0,2
 866,1,2,"Bystrom, Mrs. (Karolina)",0,42.0,0,0,236852,13.0,2
 867,1,2,"Duran y More, Miss. Asuncion",0,27.0,1,0,SC/PARIS 2149,13.8583,0
@@ -884,7 +814,6 @@ PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
 883,0,3,"Dahlberg, Miss. Gerda Ulrika",0,22.0,0,0,7552,10.5167,2
 884,0,2,"Banfield, Mr. Frederick James",1,28.0,0,0,C.A./SOTON 34068,10.5,2
 885,0,3,"Sutehall, Mr. Henry Jr",1,25.0,0,0,SOTON/OQ 392076,7.05,2
-886,0,3,"Rice, Mrs. William (Margaret Norton)",0,39.0,0,5,382652,29.125,1
 887,0,2,"Montvila, Rev. Juozas",1,27.0,0,0,211536,13.0,2
 888,1,1,"Graham, Miss. Margaret Edith",0,19.0,0,0,112053,30.0,2
 889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",0,28.0,1,2,W./C. 6607,23.45,2
